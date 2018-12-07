@@ -1,0 +1,15 @@
+set(BSOID_SHADER_TOP_LIST)
+
+set(BSOID_SHADER_VISUALIZER_LIST
+    "${BSOID_SHADER_VISUALIZER_ROOT}/Lattice.vs.glsl"
+    "${BSOID_SHADER_VISUALIZER_ROOT}/Lattice.fs.glsl"
+    "${BSOID_SHADER_VISUALIZER_ROOT}/Mesh.vs.glsl"
+    "${BSOID_SHADER_VISUALIZER_ROOT}/Mesh.gs.glsl"
+    "${BSOID_SHADER_VISUALIZER_ROOT}/Mesh.fs.glsl"
+    "${BSOID_SHADER_VISUALIZER_ROOT}/Wireframe.vs.glsl"
+    "${BSOID_SHADER_VISUALIZER_ROOT}/Wireframe.fs.glsl"
+
+    "${BSOID_SHADER_VISUALIZER_ROOT}/Dragon.fs.glsl"
+    "${BSOID_SHADER_VISUALIZER_ROOT}/Dragon.vs.glsl"
+
+    PARENT_SCOPE)

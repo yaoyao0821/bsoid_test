@@ -1,0 +1,11 @@
+#ifndef BSOID_INCLUDE_BSOID_SHADER_PATHS_HPP
+#define BSOID_INCLUDE_BSOID_SHADER_PATHS_HPP
+
+#pragma once
+
+namespace bsoid
+{
+    constexpr const char ShaderDirectory[] = "@BSOID_SHADER_ROOT@/";
+}
+
+#endif
